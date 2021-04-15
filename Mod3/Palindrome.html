@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+<link rel="stylesheet" href="Palindrome.css">
+<script src="Palindrome.js"></script>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <div class="flexrow">
+        <div class="flexcolumn">
+            <h2>Place word in Algorithm 1 or 2</h2>
+            <form name= "form">
+                Palindrome: <input type="text" name="word" value=""><br>
+                Algorithm 1 or 2: <input type="number" name="number" value=""><br>
+                <input type="button" value="Add to list" onclick="validate()">
+            </form>
+
+    </div>
+
+<div class="flexcolumn">
+    <h2>Algorithm 1</h2>
+    <table id="List1">
+    </table>
+    <br/><br/>
+    <input type="button" value="Clear the list" onclick="clearlist1()">
+</div>
+<div class="flexcolumn">
+    <h2>Algorithm 2</h2>
+    <table id="List2">
+    </table>
+    <br/><br/>
+    <input type="button" value="Clear the list" onclick="clearlist2()">
+        </div>
+    </div>
+</body>
+</html>
